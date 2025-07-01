@@ -355,7 +355,7 @@ select.form-control:focus {
 }
 
 section {
-	padding: 130px 0;
+	padding: 20px 0;
 	position: relative;
 }
 
@@ -6783,12 +6783,11 @@ Custom Css
 
 .pq-image3 {
 	position: relative;
-	width: 80%;
 }
 
 .pq-image4 {
 	position: absolute;
-	bottom: -25px;
+	bottom: -155px;
 	right: 0;
 	width: 64%;
 }
@@ -6899,7 +6898,7 @@ Custom Css
 }
 
 .pq-about-section-padding {
-	padding: 130px 0 85px 0;
+	padding: 30px 0 35px 0;
 }
 
 .mfp-fligure .mfp-close {
@@ -6966,7 +6965,7 @@ Custom Css
 }
 
 .pq-pb-130 {
-	padding-bottom: 130px;
+	padding-bottom: 20px;
 }
 
 .pq-testimonial-slider-padding {
@@ -7107,13 +7106,13 @@ Custom Css
 
 .hero-section {
   width: 100%;
-  height: 100vh;
+  height: 500px;
   position: relative;
 }
 
 .hero-slide {
   width: 100%;
-  height: 100vh;
+  height: 500px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -7137,10 +7136,11 @@ Custom Css
   z-index: 2;
   color: #fff;
   position: relative;
+  padding-bottom: 100px;
 }
 
 .hero-content h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #E6AF5D;
 }
@@ -7179,6 +7179,7 @@ Custom Css
 .swiper-pagination-bullet-active {
   background-color: #E6AF5D;
   opacity: 1;
+
 }
 
 .swiper-button-next,
@@ -7188,7 +7189,17 @@ Custom Css
   transition: color 0.3s ease;
 }
 
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 28px !important;  
+}
+
+
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
   color: #d99a4f;
+}
+
+.pq-image-box-media img{
+	height: 160px;
 }
