@@ -30,6 +30,11 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Responsive -->
     <link rel="stylesheet" href="css/responsive.css">
+    <!-- Swiper CSS -->
+    <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
 </head>
 
 <body>
@@ -50,13 +55,13 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg navbar-light">
                             <a class="navbar-brand" href="index.html">
-                                <img class="img-fluid logo" src="images/Logo/logo.png" alt="marblex">
+                                <img class="img-fluid logo" src="/images/logo.png" alt="marblex">
                             </a>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <div id="pq-menu-contain" class="pq-menu-contain">
                                     <ul id="pq-main-menu" class="navbar-nav ml-auto">
                                          <li class="menu-item">
-                                            <a href="#">Home</a>
+                                            <a href="index.html">Home</a>
                                         </li>
                                          <li class="menu-item">
                                             <a href="#">About Us</a>
@@ -97,11 +102,57 @@
         </div>
     </header>
     <!-- Header -->
+<section class="swiper mySwiper hero-section">
+  <div class="swiper-wrapper">
+    <!-- Slide 1 -->
+    <div class="swiper-slide">
+      <div class="hero-slide" style="background-image: url('/images/slider/1.jpg');">
+        <div class="overlay"></div>
+        <div class="hero-content text-center">
+            <h1>Welcome to We Stone</h1>
+          <p>Crafted with precision. Delivered with excellence.</p>
+          <a href="#" class="btn mt-3">Contact Us</a>
+        </div>
+      </div>
+    </div>
 
-    <!-- Banner -->
+    <!-- Slide 2 -->
+    <div class="swiper-slide">
+      <div class="hero-slide" style="background-image: url('/images/slider/2.avif');">
+        <div class="overlay"></div>
+        <div class="hero-content text-center">
+          <h1>Premium Granite Solutions</h1>
+          <p>Granite designs for homes and architecture.</p>
+          <a href="#" class="btn  mt-3">About Us</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="swiper-slide">
+      <div class="hero-slide" style="background-image: url('/images/slider/3.jpg');">
+        <div class="overlay"></div>
+        <div class="hero-content text-center">
+          <h1>Built to Inspire</h1>
+          <p>Elevate your interiors with We Stone.</p>
+          <a href="#" class="btn  mt-3">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation and Pagination -->
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</section>
+
+
+    <!-- Banner 
     <div class="banner py-0">
-         <div class="slider-overlay"></div>
+       
         <p class="rs-p-wp-fix"></p>
+          <div class="slider-overlay"></div>
         <rs-module-wrap id="rev_slider_12_1_wrapper" data-alias="home-4" data-source="gallery"
             style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
              
@@ -113,34 +164,27 @@
                         <img src="/images/slider/1.jpg" alt="" title="Banner-1" width="1920" height="1035"
                             class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="/images/slider/1.jpg"
                             data-no-retina>
-                        <!--
-    							--><rs-layer id="slider-12-slide-40-layer-0" class="rs-subtitle-font" data-type="text" data-color="#e6af5d"
+                        <rs-layer id="slider-12-slide-40-layer-0" class="rs-subtitle-font" data-type="text" data-color="#e6af5d"
                             data-rsp_ch="on" data-xy="x:c;y:m,m,m,t;yo:-94px,-50px,-70px,100px;"
                             data-text="w:normal;s:16,14,14,12;l:24,24,22,20;ls:1px,1.6px,1.6px,1.6px;fw:600;"
                             data-padding="t:0,5,5,5;r:0,20,20,20;b:0,5,5,5;l:0,20,20,20;" data-frame_0="y:50,39,29,17;"
                             data-frame_1="st:300;sp:1000;sR:300;"
                             data-frame_999="y:50,39,29,17;o:0;st:8000;sp:1000;sR:6700;"
-                            style="z-index:10;font-family:'Plus Jakarta Sans';text-transform:uppercase;"> Welcome to We Stone
-                        </rs-layer><!--
-    
-    							--><rs-layer id="slider-12-slide-40-layer-1" data-type="text" data-rsp_ch="on"
+                            style="z-index:15;font-family:'Plus Jakarta Sans';text-transform:uppercase;"> Welcome to We Stone
+                        </rs-layer><rs-layer id="slider-12-slide-40-layer-1" data-type="text" data-rsp_ch="on"
                             data-xy="x:c;y:m,m,m,t;yo:6px,32px,10px,145px;"
                             data-text="w:normal;s:52,38,42,32;l:50,46,50,40;ls:0,0,0,1px;fw:600;a:center;"
                             data-dim="w:648px,530px,423px,403px;" data-frame_0="y:50,39,29,17;"
                             data-frame_1="st:500;sp:1000;sR:500;"
                             data-frame_999="y:50,39,29,17;o:0;st:7700;sp:1000;sR:6290;"
-                            style="z-index:8;font-family:'Plus Jakarta Sans';text-transform:capitalize;">Premium Granite, Quartz & Custom Stone Solutions
-                        </rs-layer><!--
-    
-    							--><rs-layer id="slider-12-slide-40-layer-2" data-type="shape" data-rsp_ch="on"
+                            style="z-index:15;font-family:'Plus Jakarta Sans';text-transform:capitalize;">Premium Granite, Quartz & Custom Stone Solutions
+                        </rs-layer><rs-layer id="slider-12-slide-40-layer-2" data-type="shape" data-rsp_ch="on"
                             data-xy="x:c;xo:-185px,-178px,-170px,-135px;y:m,m,m,t;yo:-94px,-50px,-70px,115px;"
                             data-text="w:normal;s:20,15,11,6;l:0,19,14,8;" data-dim="w:30px,30px,30px,18px;h:1px;"
                             data-frame_0="y:50,39,29,17;" data-frame_1="st:300;sp:1000;"
                             data-frame_999="y:50,39,29,17;o:0;st:8000;sp:1000;"
                             style="z-index:11;background-color:#e6af5d;">
-                        </rs-layer><!--
-    
-    							--><a id="slider-12-slide-40-layer-3" class="rs-layer pq-button pq-button-flat pq-btn-font  rev-btn"
+                        </rs-layer><a id="slider-12-slide-40-layer-3" class="rs-layer pq-button pq-button-flat pq-btn-font  rev-btn"
                             href="#" target="_self" data-type="button" data-rsp_ch="on"
                             data-xy="x:c;xo:-125px,-130px,-140px,0;y:m;yo:161px,170px,140px,71px;"
                             data-text="w:normal;s:14,16,16,14;l:32,32,32,28;ls:1px,0px,0px,1px;fw:600;"
@@ -153,9 +197,7 @@
                             style="z-index:7;background-color:#e6af5d;font-family:'Plus Jakarta Sans';text-transform:uppercase;">
                             <div class="pq-button-block"><span class="pq-button-text">Contact</span><span
                                     class="pq-button-line-right"></span><i class="ion ion-ios-arrow-right"></i></div>
-                        </a><!--
-    
-    							--><a id="slider-12-slide-40-layer-5"
+                        </a><a id="slider-12-slide-40-layer-5"
                             class="rs-layer pq-button pq-button-flat pq-btn-font  pq-btn-bg-white rev-btn"
                             href="#" target="_self" data-type="button" data-color="#202125"
                             data-rsp_ch="on" data-xy="x:c;xo:125px,130px,140px,0;y:m;yo:161px,170px,140px,110px;"
@@ -168,50 +210,40 @@
                             style="z-index:6;background-color:#ffffff;font-family:'Plus Jakarta Sans';text-transform:uppercase;">
                             <div class="pq-button-block"><span class="pq-button-text">Explore</span><span
                                     class="pq-button-line-right"></span><i class="ion ion-ios-arrow-right"></i></div>
-                        </a><!--
-    
-    							--><rs-layer id="slider-12-slide-40-layer-6" data-type="shape" data-rsp_ch="on"
+                        </a><rs-layer id="slider-12-slide-40-layer-6" data-type="shape" data-rsp_ch="on"
                             data-xy="x:c;xo:185px,178px,170px,135px;y:m,m,m,t;yo:-94px,-50px,-70px,115px;"
                             data-text="w:normal;s:20,15,11,6;l:0,19,14,8;" data-dim="w:30px,30px,30px,18px;h:1px;"
                             data-frame_0="y:50,39,29,17;" data-frame_1="st:300;sp:1000;"
                             data-frame_999="y:50,39,29,17;o:0;st:8000;sp:1000;"
                             style="z-index:9;background-color:#e6af5d;">
-                        </rs-layer><!--
-    --> </rs-slide>
+                        </rs-layer></rs-slide>
                     <rs-slide style="position: absolute;" data-key="rs-41" data-title="Slide"
                         data-thumb="rev/assets/Banner-2-50x100.jpg" data-anim="adpr:false;ms:300;" data-in="o:0;"
                         data-out="a:false;">
                         <img src="/images/slider/2.avif" alt="" title="Banner-2" width="1920" height="1035"
                             class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="/images/slider/2.avif"
                             data-no-retina>
-                        <!--
-    							--><rs-layer id="slider-12-slide-41-layer-0" class="rs-subtitle-font" data-type="text" data-color="#e6af5d"
+                       <rs-layer id="slider-12-slide-41-layer-0" class="rs-subtitle-font" data-type="text" data-color="#e6af5d"
                             data-rsp_ch="on" data-xy="x:c;y:m,m,m,t;yo:-94px,-50px,-70px,100px;"
                             data-text="w:normal;s:16,14,14,12;l:24,24,22,20;ls:1px,1.6px,1.6px,1.6px;fw:600;"
                             data-padding="t:0,5,5,5;r:0,20,20,20;b:0,5,5,5;l:0,20,20,20;" data-frame_0="y:50,39,29,17;"
                             data-frame_1="st:300;sp:1000;sR:300;"
                             data-frame_999="y:50,39,29,17;o:0;st:8000;sp:1000;sR:6700;"
                             style="z-index:10;font-family:'Plus Jakarta Sans';text-transform:uppercase;">Welcome to We Stone
-                        </rs-layer><!--
-    
-    							--><rs-layer id="slider-12-slide-41-layer-1" data-type="text" data-rsp_ch="on"
+                        </rs-layer><rs-layer id="slider-12-slide-41-layer-1" data-type="text" data-rsp_ch="on"
                             data-xy="x:c;y:m,m,m,t;yo:6px,32px,10px,155px;"
                             data-text="w:normal;s:62,48,42,32;l:70,56,50,40;ls:0,0,0,1px;fw:600;a:center;"
                             data-dim="w:648px,530px,423px,366px;" data-frame_0="y:50,39,29,17;"
                             data-frame_1="st:500;sp:1000;sR:500;"
                             data-frame_999="y:50,39,29,17;o:0;st:7700;sp:1000;sR:6290;"
                             style="z-index:8;font-family:'Plus Jakarta Sans';text-transform:capitalize;">Granite That Adds Value to Every Space
-                        </rs-layer><!--
-    
-    							--><rs-layer id="slider-12-slide-41-layer-2" data-type="shape" data-rsp_ch="on"
+                        </rs-layer><rs-layer id="slider-12-slide-41-layer-2" data-type="shape" data-rsp_ch="on"
                             data-xy="x:c;xo:-185px,-178px,-170px,-135px;y:m,m,m,t;yo:-94px,-50px,-70px,115px;"
                             data-text="w:normal;s:20,15,11,6;l:0,19,14,8;" data-dim="w:30px,30px,30px,18px;h:1px;"
                             data-frame_0="y:50,39,29,17;" data-frame_1="st:300;sp:1000;"
                             data-frame_999="y:50,39,29,17;o:0;st:8000;sp:1000;"
                             style="z-index:11;background-color:#e6af5d;">
-                        </rs-layer><!--
-    
-    							--><a id="slider-12-slide-41-layer-3" class="rs-layer pq-button pq-button-flat pq-btn-font rev-btn"
+                        </rs-layer><a id="slider-12-slide-41-layer-3" class="rs-layer pq-button pq-button-flat pq-btn-font rev-btn"
                             href="#" target="_self" data-type="button" data-rsp_ch="on"
                             data-xy="x:c;xo:-125px,-130px,-140px,0;y:m;yo:161px,170px,140px,71px;"
                             data-text="w:normal;s:14,16,16,14;l:32,32,32,28;ls:1px,0px,0px,1px;fw:600;"
@@ -224,9 +256,7 @@
                             style="z-index:7;background-color:#e6af5d;font-family:'Plus Jakarta Sans';text-transform:uppercase;">
                             <div class="pq-button-block"><span class="pq-button-text">read more </span><span
                                     class="pq-button-line-right"></span><i class="ion ion-ios-arrow-right"></i></div>
-                        </a><!--
-    
-    							--><a id="slider-12-slide-41-layer-5"
+                        </a><a id="slider-12-slide-41-layer-5"
                             class="rs-layer pq-button pq-button-flat pq-btn-font  pq-btn-bg-white rev-btn"
                             href="#" target="_self" data-type="button" data-color="#202125"
                             data-rsp_ch="on" data-xy="x:c;xo:125px,130px,140px,0;y:m;yo:161px,170px,140px,110px;"
@@ -239,50 +269,40 @@
                             style="z-index:6;background-color:#ffffff;font-family:'Plus Jakarta Sans';text-transform:uppercase;">
                             <div class="pq-button-block"><span class="pq-button-text">Contact</span><span
                                     class="pq-button-line-right"></span><i class="ion ion-ios-arrow-right"></i></div>
-                        </a><!--
-    
-    							--><rs-layer id="slider-12-slide-41-layer-6" data-type="shape" data-rsp_ch="on"
+                        </a><rs-layer id="slider-12-slide-41-layer-6" data-type="shape" data-rsp_ch="on"
                             data-xy="x:c;xo:185px,178px,170px,135px;y:m,m,m,t;yo:-94px,-50px,-70px,115px;"
                             data-text="w:normal;s:20,15,11,6;l:0,19,14,8;" data-dim="w:30px,30px,30px,18px;h:1px;"
                             data-frame_0="y:50,39,29,17;" data-frame_1="st:300;sp:1000;"
                             data-frame_999="y:50,39,29,17;o:0;st:8000;sp:1000;"
                             style="z-index:9;background-color:#e6af5d;">
-                        </rs-layer><!--
-    --> </rs-slide>
+                        </rs-layer></rs-slide>
                     <rs-slide style="position: absolute;" data-key="rs-42" data-title="Slide"
                         data-thumb="rev/assets/Banner-3-50x100.jpg" data-anim="adpr:false;ms:300;" data-in="o:0;"
                         data-out="a:false;">
                         <img src="/images/slider/3.jpg" alt="" title="Banner-3" width="1920" height="1035"
                             class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="/images/slider/3.jpg"
                             data-no-retina>
-                        <!--
-    							--><rs-layer id="slider-12-slide-42-layer-0" class="rs-subtitle-font" data-type="text" data-color="#e6af5d"
+                       <rs-layer id="slider-12-slide-42-layer-0" class="rs-subtitle-font" data-type="text" data-color="#e6af5d"
                             data-rsp_ch="on" data-xy="x:c;y:m,m,m,t;yo:-94px,-50px,-70px,100px;"
                             data-text="w:normal;s:16,14,14,12;l:24,24,22,20;ls:1px,1.6px,1.6px,1.6px;fw:600;"
                             data-padding="t:0,5,5,5;r:0,20,20,20;b:0,5,5,5;l:0,20,20,20;" data-frame_0="y:50,39,29,17;"
                             data-frame_1="st:300;sp:1000;sR:300;"
                             data-frame_999="y:50,39,29,17;o:0;st:8000;sp:1000;sR:6700;"
                             style="z-index:10;font-family:'Plus Jakarta Sans';text-transform:uppercase;">Welcome to We Stone
-                        </rs-layer><!--
-    
-    							--><rs-layer id="slider-12-slide-42-layer-1" data-type="text" data-rsp_ch="on"
+                        </rs-layer><rs-layer id="slider-12-slide-42-layer-1" data-type="text" data-rsp_ch="on"
                             data-xy="x:c;y:m,m,m,t;yo:6px,32px,10px,155px;"
                             data-text="w:normal;s:62,48,42,32;l:70,56,50,40;ls:0,0,0,1px;fw:600;a:center;"
                             data-dim="w:726px,580px,574px,403px;" data-frame_0="y:50,39,29,17;"
                             data-frame_1="st:500;sp:1000;sR:500;"
                             data-frame_999="y:50,39,29,17;o:0;st:7700;sp:1000;sR:6290;"
                             style="z-index:8;font-family:'Plus Jakarta Sans';text-transform:capitalize;">Transforming Homes & Projects with Natural Stone
-                        </rs-layer><!--
-    
-    							--><rs-layer id="slider-12-slide-42-layer-2" data-type="shape" data-rsp_ch="on"
+                        </rs-layer><rs-layer id="slider-12-slide-42-layer-2" data-type="shape" data-rsp_ch="on"
                             data-xy="x:c;xo:-185px,-178px,-170px,-135px;y:m,m,m,t;yo:-94px,-50px,-70px,115px;"
                             data-text="w:normal;s:20,15,11,6;l:0,19,14,8;" data-dim="w:30px,30px,30px,18px;h:1px;"
                             data-frame_0="y:50,39,29,17;" data-frame_1="st:300;sp:1000;"
                             data-frame_999="y:50,39,29,17;o:0;st:8000;sp:1000;"
                             style="z-index:11;background-color:#e6af5d;">
-                        </rs-layer><!--
-    
-    							--><a id="slider-12-slide-42-layer-3" class="rs-layer pq-button pq-button-flat pq-btn-font  rev-btn"
+                        </rs-layer><a id="slider-12-slide-42-layer-3" class="rs-layer pq-button pq-button-flat pq-btn-font  rev-btn"
                             href="#" target="_self" data-type="button" data-rsp_ch="on"
                             data-xy="x:c;xo:-125px,-130px,-140px,0;y:m;yo:161px,170px,140px,71px;"
                             data-text="w:normal;s:14,16,16,14;l:32,32,32,28;ls:1px,0px,0px,1px;fw:600;"
@@ -295,9 +315,7 @@
                             style="z-index:7;background-color:#e6af5d;font-family:'Plus Jakarta Sans';text-transform:uppercase;">
                             <div class="pq-button-block"><span class="pq-button-text">read more </span><span
                                     class="pq-button-line-right"></span><i class="ion ion-ios-arrow-right"></i></div>
-                        </a><!--
-    
-    							--><a id="slider-12-slide-42-layer-5"
+                        </a><a id="slider-12-slide-42-layer-5"
                             class="rs-layer pq-button pq-button-flat pq-btn-font  pq-btn-bg-white rev-btn"
                             href="#" target="_self" data-type="button" data-color="#202125"
                             data-rsp_ch="on" data-xy="x:c;xo:125px,130px,140px,0;y:m;yo:161px,170px,140px,110px;"
@@ -307,25 +325,22 @@
                             data-frame_0="y:50,39,29,17;" data-frame_1="st:1100;sp:1000;sR:900;"
                             data-frame_999="y:50,39,29,17;o:0;st:7000;sp:1000;sR:5500;"
                             data-frame_hover="c:#fff;bgc:#e6af5d;boc:rgba(11,11,11,0);bor:0px,0px,0px,0px;bos:solid;bow:2px,2px,2px,2px;bri:120%;"
-                            style="z-index:6;background-color:#ffffff;font-family:'Plus Jakarta Sans';text-transform:uppercase;">
+                            style="z-index:15;background-color:#ffffff;font-family:'Plus Jakarta Sans';text-transform:uppercase;">
                             <div class="pq-button-block"><span class="pq-button-text">Get In Touch </span><span
                                     class="pq-button-line-right"></span><i class="ion ion-ios-arrow-right"></i></div>
-                        </a><!--
-    
-    							--><rs-layer id="slider-12-slide-42-layer-6" data-type="shape" data-rsp_ch="on"
+                        </a><rs-layer id="slider-12-slide-42-layer-6" data-type="shape" data-rsp_ch="on"
                             data-xy="x:c;xo:185px,178px,170px,135px;y:m,m,m,t;yo:-94px,-50px,-70px,115px;"
                             data-text="w:normal;s:20,15,11,6;l:0,19,14,8;" data-dim="w:30px,30px,30px,18px;h:1px;"
                             data-frame_0="y:50,39,29,17;" data-frame_1="st:300;sp:1000;"
                             data-frame_999="y:50,39,29,17;o:0;st:8000;sp:1000;"
-                            style="z-index:9;background-color:#e6af5d;">
-                        </rs-layer><!--
-    --> </rs-slide>
+                            style="z-index:15;background-color:#e6af5d;">
+                        </rs-layer> </rs-slide>
                 </rs-slides>
             </rs-module>
         </rs-module-wrap>
-        <!-- END REVOLUTION SLIDER -->
+         END REVOLUTION SLIDER 
     </div>
-    <!-- Banner -->
+    Banner -->
 
     
     <!-- Flooring -->
@@ -500,8 +515,8 @@
             <div class="row">
                 <div class="col-xl-6">
                     <div class="about-us-img">
-                        <img src="images/about-us/3.jpg" class="pq-image3 wow animated fadeInLeft" alt="">
-                        <img src="images/about-us/4.jpg" class="pq-image4 wow animated zoomIn" alt="">
+                        <img src="/images/about-us/1.jpg" class="pq-image3 wow animated fadeInLeft" alt="">
+                        <img src="/images/about-us/2.webp" class="pq-image4 wow animated zoomIn" alt="">
                     </div>
                 </div>
                 <div class="col-xl-6 mt-4 mt-xl-0 ps-xl-5 wow animated fadeInRight">
@@ -841,7 +856,7 @@
         <div class="row align-items-center">
             <div class="col-xl-6 pe-xl-90">
                 <div class="pq-faq-img">
-                    <img src="images/faq/1.jpg" class="img-fluid wow animated fadeInLeft" alt="faq-img">
+                    <img src="images/1.avif" class="img-fluid wow animated fadeInLeft" alt="faq-img">
                     <div class="floating-counters">
                         <div class="floating-counter-1 pq-bg-primary wow animated zoomIn">
                             <div class="pq-counter pq-style-1">
@@ -1022,7 +1037,7 @@
             </div>
             <div class="col-xl-6 p-xl-0 wow animated fadeInRight">
                 <div class="pq-testimonial-img-overflow">
-                    <img src="images/testimonial/What-Our-Clients-Say.png" alt="Client Testimonials">
+                    <img src="/images/2.jpg" alt="Client Testimonials">
                 </div>
             </div>
         </div>
@@ -1036,7 +1051,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6 p-xl-0">
                 <div class="pq-contact-img">
-                    <img src="images/portfolio/1.jpg" alt="">
+                    <img src="/images/3.jpg" alt="">
                 </div>
             </div>
             <div class="col-lg-6 mt-4 mt-lg-0 ps-xl-5">
@@ -1159,7 +1174,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="pq-footer-logo">
-                                            <img src="images/Logo/logo-2.png" class="pq-footer-logo"
+                                            <img src="/images/logo.png" class="pq-footer-logo"
                                                 alt="marblex-footer-logo">
                                         </div>
                                     </div>
@@ -1321,6 +1336,8 @@
     <script src="js/rev-custom.js"></script>
     <!-- Custom -->
     <script src="js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </body>
 
 <script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpbh-mt'},{'server':'sg2plmcpnl492384'},{'dcenter':'sg2'},{'cp_id':'9858662'},{'cp_cache':''},{'cp_cl':'8'}) </script><script src='../../../../img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js'></script>

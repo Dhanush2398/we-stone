@@ -6828,9 +6828,7 @@ Custom Css
 	height: 660px;
 }
 
-.pq-contact-img {
-	margin-left: -600px;
-}
+
 
 .pq-contact-form .pq-button {
 	background-color: var(--primary-color);
@@ -7077,18 +7075,120 @@ Custom Css
     z-index: 1;
 }
 
+
+.rev-slidebg {
+    position: relative;
+    z-index: 1 !important;
+}
+
+
 .slider-overlay {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
     width: 100%;
-    background: rgba(0,0,0,0.4);
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
     z-index: 10;
     pointer-events: none;
 }
 
+
+.rs-slide .rs-layer {
+    position: relative;
+    z-index: 15 !important;
+}
+
+
 #rev_slider_12_1_wrapper {
     position: relative;
     z-index: 5;
+}
+
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.hero-slide {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hero-content {
+  z-index: 2;
+  color: #fff;
+  position: relative;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #E6AF5D;
+}
+
+.hero-content .btn {
+  background-color: #E6AF5D;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.hero-content .btn:hover {
+  background-color: #d99a4f; 
+  color: #fff;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination {
+  z-index: 10;
+}
+
+
+.swiper-pagination-bullet {
+  background-color: #E6AF5D !important;
+  opacity: 0.7;
+}
+.swiper-pagination-bullet-active {
+  background-color: #E6AF5D;
+  opacity: 1;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #E6AF5D !important;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #d99a4f;
 }
