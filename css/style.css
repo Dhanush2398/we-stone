@@ -52,7 +52,7 @@ Fonts
 Moz Selection
 ++++++++++++++++++++++++++++++++++++++++*/
 :root {
-	--primary-color: #e6af5d;
+	--primary-color: #66050B;
 	--dark-color: #30373f;
 	--secondary-color: #616161;
 	--grey-color: #f6f4f5;
@@ -7142,11 +7142,11 @@ Custom Css
 .hero-content h1 {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #E6AF5D;
+  color: #66050B;
 }
 
 .hero-content .btn {
-  background-color: #E6AF5D;
+  background-color: #66050B;
   color: #fff;
   border: none;
   padding: 10px 25px;
@@ -7173,18 +7173,18 @@ Custom Css
 
 
 .swiper-pagination-bullet {
-  background-color: #E6AF5D !important;
+  background-color: #66050B !important;
   opacity: 0.7;
 }
 .swiper-pagination-bullet-active {
-  background-color: #E6AF5D;
+  background-color: #66050B;
   opacity: 1;
 
 }
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: #E6AF5D !important;
+  color: #66050B !important;
   font-weight: bold;
   transition: color 0.3s ease;
 }
