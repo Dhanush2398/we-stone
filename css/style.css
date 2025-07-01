@@ -7206,4 +7206,10 @@ Custom Css
 
 .pq-service-img img{
 	height: 200px;
+	width: 312px !important;
+}
+@media (max-width: 767px) {
+  .pq-service-box {
+    padding-top: 40px;
+  }
 }
